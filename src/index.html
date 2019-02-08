@@ -2,14 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Codificador</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      
+     <!--html box1-->
+     <div id="box1" class="yellow">
+      <header> <h1 id="head">Easy Encryption</h1> </header>
+      <section id="section">
+      <div> 
+       <h3 id="tittle">¡Bienvenido a Easy Encryption 'Codificador de Mensajes'!</h3>
+       <p>Este es un generador de mensajes codificados</p>
+      </div>
+      <div id="enter">
+       <div> <input type="text" placeholder="Ingresa tu nombre para comenzar" id="nombre"></div>
+       <button id="btn_ingresar" >Ingresar</button>
+      </div>
+      </section>
+      </div>
 
+      <!--html box2-->
+   <div id="box2">
+    <header> <h1 id="head">Easy Encryption</h1></header>
+    <section id="section">
+    <div>
+      <h2 id="name_user"></h2>
+      <p>Decide si quieres cifrar o descifrar tu mensaje</p>
     </div>
+    <div id="encode"></div>
+    <div> <input type="text" placeholder="Ingresa tu Mensaje a Codificar" id="codificar"></div>
+    <button id="btn_encode" >Cifrar</button>
+    <div id="decode"></div>
+    <div> <input type="text" placeholder="Ingresa tu Mensaje a Decodificar" id="decodificar"></div>
+    <button id="btn_decode" >Descifrar</button>
+    </section>
+    </div>
+   
+     <!--html box3-->  
+   <div id="box3"> 
+    <header> <h1 id="head">Easy Encryption</h1></header>
+    <section id="section">
+    <h2 id="msje_encode"></h2>
+    <h2 id="msje_decode"></h2>
+    <div> <input type="text"> </div>
+    <button id="btn_new_msje" >Mensaje Nuevo</button>
+    <button id="btn_end" >Salir</button>
+    </section>
+    </div>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
