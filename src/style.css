@@ -1,1 +1,75 @@
-/* Acá va tu código */
+body{
+    background-image: url(http://www.freeimageslive.com/galleries/workplace/office/pics/keys.jpg);
+    background-size: 650px 700px;
+  
+  }
+  #head{
+    font-size: 36px;
+    font-style: oblique;
+  }
+  
+  #name{
+    font-size: 14px;
+  }
+  
+  #box1{
+  display:block;
+  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
+  background-size:cover;
+  text-align:center;
+  height:400px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid #333;
+  }
+  
+  #box2{
+  display:none;
+  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
+  background-size:350px 400px;
+  text-align:center;
+  height:400px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid #333;
+  } 
+  
+  #box3{
+  display:none;
+  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
+  background-size:350px 400px;
+  text-align:center;
+  height:400px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid #333;
+  }
+  
+  #box4{
+    display:none;
+    background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
+    background-size:350px 400px;
+    text-align:center;
+    height:400px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    border: 2px solid #333;
+    }
+  
+  #btn_ingresar, #btn_encode:hover,  #btn_decode:hover, #btn_new_msje:hover, #btn_end:hover {
+  background-color:#FFCF3F;
+  border-color:rgb(28, 54, 83);
+  color:rgb(82, 8, 8);
+  font-size: 12px;
+  font-weight: bold;
+  cursor:pointer;
+  background: transparent;
+  border: 2px solid #333;
+    padding: 6px;
+    width: 80px;  
+    height: 40px;
+  }
