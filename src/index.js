@@ -3,11 +3,10 @@ button_enter.addEventListener('click', () =>{
    document.getElementById("box1").style.display="none";
    document.getElementById("box2").style.display="block";
    let name = document.getElementById('nombre').value;
-   name_user.innerHTML = `<p id="text">¡ Hola ${name} !</p>`;
-   
+   document.getElementById("name_user").innerHTML = `<p id="text">¡ Hola ${name} !</p>`;
  })
-
-const button_cipher = document.getElementById('btn_encode');
+ 
+ const button_cipher = document.getElementById('btn_encode');
 button_cipher.addEventListener('click', () =>{
    document.getElementById("box2").style.display="none";
    document.getElementById("box3").style.display="block";
@@ -29,16 +28,28 @@ button_decipher.addEventListener('click',() =>{
 
 })
 
-const button_new_mje = document.getElementById("btn_new_msje");
-button_new_mje.addEventListener('click', () =>{
+const button_new_mje1 = document.getElementById("btn_msje_1");
+button_new_mje1.addEventListener('click', () =>{
    document.getElementById("box3").style.display="none";
    document.getElementById("box2").style.display="block";
 
 })
 
-const button_mje_new = document.getElementById("btn_msje_new");
-button_mje_new.addEventListener('click', () =>{
+const button_mje_new2 = document.getElementById("btn_msje_2");
+button_mje_new2.addEventListener('click', () =>{
    document.getElementById("box4").style.display="none";
    document.getElementById("box2").style.display="block";
 
 })
+
+
+/*
+const button_cipher = document.getElementById('btn_encode');
+button_cipher.addEventListener('click', () =>{
+   document.getElementById("box2").style.display="none";
+   document.getElementById("box3").style.display="block";
+   let offset_value = document.getElementById('offset');
+   document.getElementById('offset').value;
+   let encode = document.getElementById('codificar').value;
+   document.getElementById('codificar').value = "";
+   document.getElementById('message_encode').innerHTML+= cipher.encode(offset_value,encode); */

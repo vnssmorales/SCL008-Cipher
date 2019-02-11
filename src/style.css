@@ -1,75 +1,80 @@
 body{
-    background-image: url(http://www.freeimageslive.com/galleries/workplace/office/pics/keys.jpg);
-    background-size: 650px 700px;
-  
-  }
-  #head{
-    font-size: 36px;
-    font-style: oblique;
-  }
-  
-  #name{
-    font-size: 14px;
-  }
-  
-  #box1{
-  display:block;
-  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
-  background-size:cover;
-  text-align:center;
-  height:400px;
+  background-image: url(http://miajadas.masportales.es/usrs/empresas/9e77381e46684c651878e24cd7d105bf.png);
+  background-size: 450px 107px;
+
+}
+
+#box1{
+display:block;
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/143/775/small/vector-prisma-background.jpg);
+background-size:cover;
+text-align:center;
+height:600px;
+width:600px;
+margin-left:auto;
+margin-right:auto;
+border: 2px solid #333;
+}
+
+#box2, #box3, #box4{
+display:none;
+background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/143/775/small/vector-prisma-background.jpg);
+background-size:cover;
+text-align:center;
+height:600px;
+width:600px;
+margin-left:auto;
+margin-right:auto;
+border: 2px solid #333;
+} 
+
+#btn_ingresar, #btn_encode:hover, #btn_decode:hover, #btn_new_msje:hover, #btn_end:hover {
+background-color:#FFCF3F;
+border-color:rgb(28, 54, 83);
+color:rgb(82, 8, 8);
+font-size: 12px;
+font-weight: bold;
+cursor:pointer;
+background: transparent;
+border: 2px solid #333;
+  padding: 6px;
+  width: 80px;  
+  height: 40px;
+}
+
+.footer{
+  background-color: #cc3300; 
+  height:80px; 
   width:600px;
-  margin-left:auto;
-  margin-right:auto;
-  border: 2px solid #333;
-  }
-  
-  #box2{
-  display:none;
-  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
-  background-size:350px 400px;
+  bottom: 26px;
+  position: fixed;
+}
+
+.head{
+  font-size: 36px;
+  font-style: oblique;
+  background-color:#ffad33;
+  color: white;
   text-align:center;
-  height:400px;
-  width:600px;
-  margin-left:auto;
-  margin-right:auto;
-  border: 2px solid #333;
-  } 
-  
-  #box3{
-  display:none;
-  background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
-  background-size:350px 400px;
-  text-align:center;
-  height:400px;
-  width:600px;
-  margin-left:auto;
-  margin-right:auto;
-  border: 2px solid #333;
-  }
-  
-  #box4{
-    display:none;
-    background-image: url(http://www.freeimageslive.com/galleries/nature/abstract/pics/decay_leaf.jpg);
-    background-size:350px 400px;
-    text-align:center;
-    height:400px;
-    width:600px;
-    margin-left:auto;
-    margin-right:auto;
-    border: 2px solid #333;
-    }
-  
-  #btn_ingresar, #btn_encode:hover,  #btn_decode:hover, #btn_new_msje:hover, #btn_end:hover {
-  background-color:#FFCF3F;
-  border-color:rgb(28, 54, 83);
-  color:rgb(82, 8, 8);
-  font-size: 12px;
-  font-weight: bold;
-  cursor:pointer;
-  background: transparent;
-  border: 2px solid #333;
-    padding: 6px;
-    width: 80px;  
-    height: 40px;
-  }
+  height:45px;
+}
+
+.tittleFooter{
+  font-size: 18px;
+  font-weight:bold;
+  text-align: left;
+}
+
+.note{
+  font-size: 18px;
+  font-style: Italic;
+  text-align: left;
+}
+#nombre{
+  font-size: 14px;
+  width: 250px;
+  height:50px
+}
+#tittle{
+  color: aliceblue;
+}
