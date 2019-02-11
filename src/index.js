@@ -1,5 +1,4 @@
 const button_enter = document.getElementById('btn_ingresar');
-
 button_enter.addEventListener('click', () =>{
    document.getElementById("box1").style.display="none";
    document.getElementById("box2").style.display="block";
@@ -9,30 +8,37 @@ button_enter.addEventListener('click', () =>{
  })
 
 const button_cipher = document.getElementById('btn_encode');
-
 button_cipher.addEventListener('click', () =>{
    document.getElementById("box2").style.display="none";
    document.getElementById("box3").style.display="block";
    let encode = document.getElementById('codificar').value;
    document.getElementById('codificar').value = "";
-   msje_encode.innerHTML = `<p id="text">Aquí está tu mensaje codificado: ${encode}</p>`;
+   let msge_encode = document.getElementById("message_encode");
+   msge_encode.innerHTML = `${encode}`;
    
 })
 
 const button_decipher = document.getElementById("btn_decode");
-
 button_decipher.addEventListener('click',() =>{
    document.getElementById("box2").style.display="none";
-   document.getElementById("box3").style.display="block";
+   document.getElementById("box4").style.display="block";
    let decode = document.getElementById('decodificar').value;
    document.getElementById('decodificar').value = "";
-   msje_decode.innerHTML = `<p id="text">Aquí está tu mensaje decodificado: ${decode}</p>`;
+   let msge_decode = document.getElementById("message_decode");
+   msge_decode.innerHTML = `${decode}`;
 
 })
 
-const button_msje_new = document.getElementById("btn_new_msje");
-button_msje_new.addEventListener('click', () =>{
+const button_new_mje = document.getElementById("btn_new_msje");
+button_new_mje.addEventListener('click', () =>{
    document.getElementById("box3").style.display="none";
    document.getElementById("box2").style.display="block";
 
- })
+})
+
+const button_mje_new = document.getElementById("btn_msje_new");
+button_mje_new.addEventListener('click', () =>{
+   document.getElementById("box4").style.display="none";
+   document.getElementById("box2").style.display="block";
+
+})
