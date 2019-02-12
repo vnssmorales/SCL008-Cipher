@@ -29,17 +29,15 @@ border: 2px solid #333;
 } 
 
 #btn_ingresar, #btn_encode:hover, #btn_decode:hover, #btn_new_msje:hover, #btn_end:hover {
-background-color:#FFCF3F;
-border-color:rgb(28, 54, 83);
+background-color: transparent;
+border-color:rgb(0, 2, 3);
 color:rgb(82, 8, 8);
 font-size: 12px;
 font-weight: bold;
 cursor:pointer;
-background: transparent;
-border: 2px solid #333;
-  padding: 6px;
-  width: 80px;  
-  height: 40px;
+padding: 6px;
+width: 80px;  
+height: 40px; 
 }
 
 .footer{
@@ -73,8 +71,54 @@ border: 2px solid #333;
 #nombre{
   font-size: 14px;
   width: 250px;
-  height:50px
+  height:50px;
+  border: 2px solid #333;
 }
 #tittle{
   color: aliceblue;
+}
+
+#offset{
+  font-size: 14px;
+  width: 70px;
+  height:30px;
+  border: 2px solid #333;
+}
+
+#codificar{
+  font-size: 12px;
+  font-weight: bold;
+  cursor:pointer;
+  border: 2px solid #333;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
+}
+
+#decodificar{
+  font-size: 12px;
+  font-weight: bold;
+  cursor:pointer;
+  border: 2px solid #333;
+  margin: 5px;
+  width: 250px;
+  height: 50px;
+}
+
+[data-tooltip]{
+  background: #cc3300;
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+
+ /*&::after{
+    content: "?";
+    position: absolute;
+  }*/
+
+  /*&::before{
+    content: attr(data-tooltip);
+    display: block;
+  }*/
 }
