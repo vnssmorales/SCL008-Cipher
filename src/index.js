@@ -12,6 +12,7 @@ button_cipher.addEventListener('click', () =>{
    document.getElementById("box3").style.display="block";
 
    let offset_value = document.getElementById('offset').value;
+   document.getElementById('offset').value ="";
    let encode = document.getElementById('codificar').value;
    document.getElementById('codificar').value = "";
    document.getElementById('message_encode').value=cipher.encode(offset_value,encode);
@@ -24,6 +25,7 @@ button_decipher.addEventListener('click',() =>{
    document.getElementById("box4").style.display="block";
 
    let value_offset = document.getElementById('offset').value;
+   document.getElementById('offset').value ="";
    let decode = document.getElementById('decodificar').value;
    document.getElementById('decodificar').value = "";
    document.getElementById('message_decode').value=cipher.decode(value_offset,decode);
