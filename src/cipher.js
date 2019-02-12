@@ -10,16 +10,18 @@ window.cipher = {
     
     }
     return result;
-  },
-  decode: (offset_value,decode) => {
-    let result ="";
-    let concatenar="";
-    let transform_text=0;
+    },
+  
+  decode: (value_offset,decode) => {
+    let resultt ="";
+    let concatenarr="";
+    let transform_textd=0;
     for (let i=0;i<decode.length;i++){
-    transform_text=decode.charCodeAt(i);
-    concatenar=String.fromCharCode((transform_text-90+parseInt(offset_value))%26+90);
-    result+= concatenar
-  }
-   return result;
-  } 
- };
+    transform_textd=decode.charCodeAt(i);
+    concatenarr=String.fromCharCode((transform_textd-90+parseInt(value_offset))%26+90);
+    resultt+= concatenarr
+    
+    }
+    return resultt;
+    }
+  };
