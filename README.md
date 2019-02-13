@@ -1,6 +1,6 @@
 # Easy Encryption
 
-![imágen pagina](https://github.com/vnssmorales/SCL008-Cipher/blob/master/Imagenes/Captura%20de%20pantalla%20de%202019-02-12%2022-24-34.png)
+![imágen pagina](https://github.com/vnssmorales/SCL008-Cipher/blob/master/Imagenes/Logo%20Cipher.png)
 
 ## ¿Qué es?
 
