@@ -17,14 +17,14 @@ Para las áreas en las que se maneja información confidencial o clasificada, co
 
 La planificación la diseñé de acuerdo al tiempo estipulado que fueron 2 semanas.
 
-#### 1.- Mockup
+### 1.- Mockup
  
 El primer pasó fue realizar el mockup de mi aplicación.
 * Un mockup es un prototipo que proporciona al menos una parte de la funcionalidad de un sistema y permite pruebas del diseño.
 
 ![Mockup](https://github.com/vnssmorales/SCL008-Cipher/blob/master/Imagenes/fotos_mockup.jpg)
 
-#### 2.- Plan de Trabajo
+### 2.- Plan de Trabajo
 
 El segundo paso fue estructurar un plan de trabajo mediante la herramienta TRELLO que me permitió dividir y organizar de manera específica paso a paso cada tarea que debía realizar, para cumplir así con la entrega del proyecto.
 
