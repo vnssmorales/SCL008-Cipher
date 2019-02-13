@@ -18,7 +18,7 @@ window.cipher = {
     let transform_textd=0;
     for (let i=0;i<decode.length;i++){
     transform_textd=decode.charCodeAt(i);
-    concatenarr=String.fromCharCode((transform_textd-90+parseInt(value_offset))%26+90);
+    concatenarr=String.fromCharCode((transform_textd-90-parseInt(value_offset))%26+90);
     resultt+= concatenarr
     
     }
