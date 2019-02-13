@@ -28,7 +28,7 @@ margin-right:auto;
 border: 2px solid #333;
 } 
 
-#btn_ingresar, #btn_encode, #btn_decode, #btn_msje_1, #btn_end, #btn_msje_2, #btn_endd {
+#btn_ingresar, #btn_encode, #btn_decode, #btn_msje_1, #btn_msje_2, #btn_end, #btn_endd {
 background-color: transparent;
 border-color:rgb(0, 2, 3);
 color:rgb(82, 8, 8);
@@ -38,7 +38,9 @@ cursor:pointer;
 padding: 6px;
 width: 80px;  
 height: 40px; 
+border-radius: 9px;
 }
+
 
 .footer{
   background-color: #cc3300; 
@@ -121,6 +123,11 @@ height: 40px;
   font-size: 18px;
 }
 
+#message_encode, #message_decode{
+  width: 250px;
+  height:80px;
+  border: 2px solid #333;
+}
 /*#tooltip-left{
   position: relative;
   background: #F2D1C9;
