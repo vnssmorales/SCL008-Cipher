@@ -30,6 +30,12 @@ El segundo paso fue estructurar un plan de trabajo mediante la herramienta TRELL
 
 ## Resumen del proyecto
 
+La aplicación funciona como indiqué al principio mediante el cifrado César.
+
+* Para comenzar hay que ingresar el nombre de usuario
+* Luego debes escoger un "offset", que es un número para desplazar las letras y coemnzar el cifrado o descifrado.
+* 
+
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
@@ -49,14 +55,6 @@ Algunas ideas de ejemplo:
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
 - A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-#### Definición del producto
-
-En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
-
-- Quiénes son los principales usuarios de producto.
-- Cuáles son los objetivos de estos usuarios en relación con tu producto.
-- Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
 #### Interfaz de usuario (UI)
 
