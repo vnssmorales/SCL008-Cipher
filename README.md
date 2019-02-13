@@ -1,19 +1,32 @@
-# Cifrado César
+# Easy Encryption
 
+## ¿Qué es?:
+
+Easy Encryption es una Aplicación que permite cifrar y/o descifrar mensajes, mediante el "Cifrado César".
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
+
+
+## Sobre el Producto(público objetivo);
+
+La idea del producto se basa en una aplicación empresarial. 
+Para las áreas en las que se maneja información confidencial o clasificada, con el fin de tener un mayor nivel de seguridad y así impedir la filtración de ésta información. 
+
+## Planificación
+
+La planificación la diseñé de acuerdo al tiempo estipulado que fueron 2 semanas.
+
+#### 1.- Mockup
+ 
+El primer pasó fue realizar el mockup de mi aplicación.
+* Un mockup es un prototipo que proporciona al menos una parte de la funcionalidad de un sistema y permite pruebas del diseño.
+
+#### 2.- Plan de Trabajo
+
+El segundo paso fue estructurar un plan de trabajo mediante la herramienta TRELLO que me permitió dividir y organizar de manera específica paso a paso cada tarea que debía realizar, para cumplir así con la entrega del proyecto.
+
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
-
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-- La letra A se cifra como D.
-- La palabra CASA se cifra como FDVD.
-- Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas más complejos de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 ## Resumen del proyecto
 
